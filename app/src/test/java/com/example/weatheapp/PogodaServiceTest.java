@@ -20,9 +20,7 @@ public class PogodaServiceTest {
         // Mockowanie odpowiedzi API (simulacja poprawnych danych)
         String jsonResponse = "{ \"main\": { \"temp\": 25.0 }, \"weather\": [ { \"description\": \"clear sky\" } ] }";
 
-        // Podstawienie mocka dla metody pobierającej dane
-        // Ponieważ HttpURLConnection to klasa zależna, nie możemy jej łatwo zamockować,
-        // dlatego skupimy się na testowaniu metod logiki, a mocki mogą być użyte w innych częściach kodu
+       
 
         // Wywołanie metody, która zwraca dane pogodowe
         String wynik = pogodaService.pobierzPogode("Warszawa");
