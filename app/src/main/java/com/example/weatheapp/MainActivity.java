@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Button pobierzButton;
     TextView wynikTextView;
 
-    String apiKey = "5a30404e608d991cd846dad9056cb7e1"; // 🔁 Zamień na swój klucz API z https://openweathermap.org
+    String apiKey = "api klucz"; // 🔁 Zamień na swój klucz API z https://openweathermap.org
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
